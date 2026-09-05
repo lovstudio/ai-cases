@@ -1,0 +1,145 @@
+[
+  {
+    "asset": "assets/book-cover.png",
+    "bytes": 1103309,
+    "sha256": "aaa90a333713512f3102e15c7d5fec7656749474228463e92469c060342593d8",
+    "sourceRecord": "vault/books/Agent Skill 高质量设计指南/src/assets/images/cover.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/book-composition.png",
+    "bytes": 1868532,
+    "sha256": "df6dd695e53d870b7abdd607abbe23a6412f2f17f20d6a0c7bdd43a4e73e8b0c",
+    "sourceRecord": "vault/books/Agent Skill 高质量设计指南/src/assets/images/chapters/ch08-composition.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/agent-skill-design-guide.pdf",
+    "bytes": 27905133,
+    "sha256": "99bedf321750e346ab34ba2609f41a6b76e57b9b821681f5e8f395e85174f2e6",
+    "sourceRecord": "vault/books/Agent Skill 高质量设计指南/output/手工川-agent-skill-design-guide-2026-04-14-v0.5.pdf",
+    "distribution": "release-v0.2.0"
+  },
+  {
+    "asset": "assets/riso-process.jpg",
+    "bytes": 262559,
+    "sha256": "cf7abd167fd9347f684642f6c13b9f51d5f99fec62cb8c5537bce590ce42de4b",
+    "sourceRecord": "coding/skills/riso-portrait-skill/cases/artifacts/five-finger-correction.jpg",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/portrait-process.png",
+    "bytes": 1224669,
+    "sha256": "62369f1fef892a7f8f22636df8e56eda68925b40022fc0f7fc0934428d1ac904",
+    "sourceRecord": "coding/skills/professional-portrait-skill/cases/professional-portrait-progress-16x9.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/portrait-before.jpg",
+    "bytes": 7815493,
+    "sha256": "eabaeaf99793e9983febc02baaeb1d7562f60d74750c203555a1fe6c5ffc3274",
+    "sourceRecord": "output/微信图片_2026-04-04_234613_748-upright.jpg",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/portrait-after.png",
+    "bytes": 2149132,
+    "sha256": "7f9baf8467434c395aab50936c0ebe0758b2e89e9c7d8c8eb5369f68da2441f5",
+    "sourceRecord": "output/formal-portrait-v7.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/hanzi.png",
+    "bytes": 435631,
+    "sha256": "aa3c1632ffa06851d37fca9650003832f66f9e60a7acbc43828252861b324033",
+    "sourceRecord": "coding/skills/hanzi-lens-skill/examples/xi/exhibit/poster.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/matrix.png",
+    "bytes": 490633,
+    "sha256": "a4ddc9c27dfbf81f103991bada0fe22c06605cda4d2161d78592e9e8aa313520",
+    "sourceRecord": "coding/skills/professional-infographic-skill/examples/mobile-cross-platform-selection-v2/comparison-matrix/poster.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/positioning.png",
+    "bytes": 306049,
+    "sha256": "e60447d4b702789973dcf2f9d36305b790468e17ee8dffe6516593580b95edaf",
+    "sourceRecord": "coding/skills/professional-infographic-skill/examples/mobile-cross-platform-selection-v2/positioning-map/poster.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/bauhaus-card.png",
+    "bytes": 1798153,
+    "sha256": "7b20111352588d134b5962a53b77413c617ec5c44f7f6679a5d5cbefdb7f1c01",
+    "sourceRecord": "coding/skills/gen-card-skill/cases/output/bauhaus-card.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/bauhaus-visual.jpg",
+    "bytes": 155265,
+    "sha256": "19079d874c5de673b8ef296371231d5bf0162dd27b41d5b7e670356f86c2706b",
+    "sourceRecord": "coding/skills/gen-card-skill/cases/assets/bauhaus-visual.jpg",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/film-cover.png",
+    "bytes": 2127473,
+    "sha256": "fba85f4b05352b9c9515d332cbb5c7b95a3a2f00bf3bd9a73a6d9eb3cb3afad7",
+    "sourceRecord": "repositories/手工川ai剪辑/episodes/ep01-skill-limits/deliverables/cover-bilibili-16x9.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/film-cover-vertical.png",
+    "bytes": 1726742,
+    "sha256": "3b0d1df7a18fd62b55d1663f667e09bd3505771816124ccba64ae05d3a6a3147",
+    "sourceRecord": "repositories/手工川ai剪辑/episodes/ep01-skill-limits/deliverables/cover-video-channel-3x4.png",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/film-horizontal.mp4",
+    "bytes": 147841484,
+    "sha256": "2f5d96d2fa84e91d310b910eb940fa1ed11471ffd3d385cef0054a3ea06bdc93",
+    "sourceRecord": "repositories/手工川ai剪辑/episodes/ep01-skill-limits/deliverables/handmade-ai-ep01-bilibili-v5.mp4",
+    "distribution": "release-v0.2.0"
+  },
+  {
+    "asset": "assets/film-vertical.mp4",
+    "bytes": 171155570,
+    "sha256": "72aa281a2e36a684243662084594174ffa6b45b8dbc36570564a4a10951dd244",
+    "sourceRecord": "repositories/手工川ai剪辑/episodes/ep01-skill-limits/deliverables/handmade-ai-ep01-wechat-channels-v5.mp4",
+    "distribution": "release-v0.2.0"
+  },
+  {
+    "asset": "assets/film.vtt",
+    "bytes": 13437,
+    "sha256": "bb5569ee7ee6edb1b7ae841ae723cb7021c46c5fbd7ba01df03185d79f19998b",
+    "sourceRecord": "repositories/手工川ai剪辑/episodes/ep01-skill-limits/deliverables/ep01-approved-v5.vtt",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/book-title.jpg",
+    "derivedFrom": "assets/agent-skill-design-guide.pdf",
+    "transform": "Render PDF page 2 at scale 1.2",
+    "bytes": 12754,
+    "sha256": "bbd093aa87c5272c8f7d487e7e2708ef61e9807cba6cdc4616a999adca0e40ed",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/book-spread.jpg",
+    "derivedFrom": "assets/agent-skill-design-guide.pdf",
+    "transform": "Render PDF page 8 at scale 1.2",
+    "bytes": 107962,
+    "sha256": "118c7f077e8b74c530a9f13ec0e2cfc12c51063dcc2d23ed2373dd3bccf030f4",
+    "distribution": "git"
+  },
+  {
+    "asset": "assets/voice-excerpt.m4a",
+    "derivedFrom": "assets/film-horizontal.mp4",
+    "transform": "Extract approved soundtrack from 14.2s to 33.0s, AAC 128k",
+    "bytes": 307174,
+    "sha256": "2ca6072a1027d373e16b46ff91eb721bc542ce3f572127f265a24cd2cf94ea25",
+    "distribution": "git"
+  }
+]

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b100e">
+  <link rel="canonical" href="https://lovstudio.ai/ai-cases">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="手工川 AI 案例集 — 让想法，真的发生。">
+  <meta property="og:description" content="12 个真实 AI 实践，穿过代码、视觉、书籍、声音与影像。走进作品，也走进制作过程。">
+  <meta property="og:url" content="https://lovstudio.ai/ai-cases">
+  <meta property="og:image" content="https://lovstudio.ai/ai-cases/assets/book-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="description" content="手工川 AI 案例集：12 个真实案例，穿过软件、图像、书籍、声音与影像。从 2023 到 2026，把好奇心做成作品。">
+  <title>手工川 AI 案例集 — 把好奇心做成作品</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23efede6'/%3E%3Ctext x='5' y='31' fill='%23252822' font-size='30' font-family='serif'%3E川%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/ai-cases/styles.css">
+  <link rel="stylesheet" href="/ai-cases/assets/motion.css">
+  <script src="/ai-cases/cases.js" defer></script>
+  <script src="/ai-cases/media-data.js" defer></script>
+  <script src="/ai-cases/assets/vendor/gsap.min.js" defer></script>
+  <script src="/ai-cases/assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="/ai-cases/assets/vendor/Flip.min.js" defer></script>
+  <script src="/ai-cases/app.js" defer></script>
+  <script src="/ai-cases/assets/motion.js" defer></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="true" aria-label="关闭动态效果" hidden><span class="motion-bars" aria-hidden="true"><i></i><i></i><i></i></span><span id="motion-label">动效 ON</span></button>
+  <a class="skip-link" href="#works">跳到精选案例</a>
+  <header class="site-header wrap">
+    <a class="identity" href="#" aria-label="回到案例集首页"><span class="identity-mark">川</span><span>手工川<span class="identity-sub">AI 案例集 / FIELD NOTES</span></span></a>
+    <nav aria-label="主导航"><a href="/">官网首页</a><a href="#works">精选作品</a><a href="#cinema">放映室</a><a href="#timeline">三年轨迹</a><a href="#about">策展手记</a></nav>
+    <button class="button dark compact" data-action="tour">开始导览 <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-intro wrap"><span class="eyebrow">INDEPENDENT MIND. EXPANDED POSSIBILITIES.</span><span class="edition">2023 — 2026 / VOL. 01</span></div>
+      <div class="hero-stage">
+        <div class="hero-grid wrap">
+          <div class="hero-type-bg" aria-hidden="true">MAKE<br><span>IT REAL.</span></div>
+          <div class="hero-copy">
+            <p class="hero-kicker"><span class="tiny-rule"></span> 手工川 AI 案例集 <span class="live-mark">精选十二例</span></p>
+            <h1 id="hero-title"><span class="title-line"><span>让想法，</span></span><span class="title-line"><span>真的<span class="hero-em">发生。</span></span></span></h1>
+            <p class="hero-description">从一句「可不可以」，到一个「做出来了」。<br>一本书、一张图、一部片，以及不断扩展的自己。</p>
+            <div class="hero-actions"><a href="#works" class="hero-link" data-magnetic><span>进入作品现场</span><span class="round-arrow" aria-hidden="true">↗</span></a><a href="#cinema" class="hero-watch"><span aria-hidden="true">▷</span> 看一部作品 <small>05:58</small></a></div>
+            <div class="hero-footnote"><span class="large-number">12</span><p>真实问题 / 具体过程 / 可见成果<br><span>CODE · IMAGE · WORD · SOUND · FILM</span></p></div>
+          </div>
+          <div class="hero-art" aria-label="精选作品拼贴">
+            <svg class="orbit-lines" viewBox="0 0 700 700" fill="none" aria-hidden="true"><circle cx="350" cy="350" r="290"/><ellipse cx="350" cy="350" rx="330" ry="145" transform="rotate(-35 350 350)"/><path d="M350 25V58M350 642V675M25 350H58M642 350H675"/><circle class="orbit-point" cx="605" cy="212" r="5"/></svg>
+            <button class="hero-book" data-case="book" aria-label="查看案例：Agent Skill 高质量设计指南">
+              <img src="/ai-cases/assets/book-cover.png" alt="真实书籍封面：刻有 SKILL.md 的金色多面体" fetchpriority="high">
+              <span class="hero-art-top"><span>OBJECT / 001</span><span>IDEA → ARTIFACT</span></span>
+              <span class="hero-art-caption">经验，有了形状。<small>202 页 / Agent Skill 高质量设计指南 <span aria-hidden="true">↗</span></small></span>
+            </button>
+            <button class="floating-art" data-case="bauhaus" aria-label="查看案例：包豪斯风格卡"><img src="/ai-cases/assets/bauhaus-visual.jpg" alt="包豪斯视觉作品"><span>COLOR / 007 <span aria-hidden="true">↗</span></span></button>
+            <button class="floating-type" data-case="hanzi" aria-label="查看案例：把翕字讲清楚"><span>翕</span><small>LANGUAGE / 004 ↗</small></button>
+            <span class="art-side-note" aria-hidden="true">A HUMAN × AI COLLABORATION</span>
+          </div>
+          <div class="hero-reprise" aria-hidden="true"><span class="eyebrow">CURIOSITY IN MOTION</span><p>想法的下一步，<br><em>是作品。</em></p><span class="reprise-note">向下滚动，走近三个创作现场 ↓</span></div>
+          <div class="hero-scroll-cue" aria-hidden="true"><span>SCROLL TO EXPLORE</span><i></i></div>
+        </div>
+      </div>
+      <div class="hero-index wrap"><span><i class="index-dot" aria-hidden="true"></i> 持续创作，持续校正。</span><span>SCROLL / EXPLORE / MAKE</span><span>CURATED BY / 手工川</span></div>
+    </section>
+
+    <section class="spotlight" aria-labelledby="spotlight-title">
+      <div class="spotlight-stage">
+        <div class="spotlight-heading wrap"><div><span class="eyebrow">THREE WAYS TO MAKE AN IDEA REAL</span><h2 id="spotlight-title">想法，开始有了质感。</h2></div><div class="spotlight-controls"><span id="spotlight-count" aria-live="polite">01 / 03</span><button data-spot-direction="-1" aria-label="上一个精选作品">←</button><button data-spot-direction="1" aria-label="下一个精选作品">→</button></div></div>
+        <div class="spotlight-window" tabindex="0" role="region" aria-label="三件精选作品，可横向浏览">
+          <div class="spotlight-track">
+            <article class="spotlight-panel spotlight-book"><button class="spotlight-visual" data-case="book" aria-label="阅读一本书的诞生"><span class="spotlight-book-object"><img src="/ai-cases/assets/book-cover.png" alt="Agent Skill 高质量设计指南封面" loading="lazy"></span><img src="/ai-cases/assets/book-composition.png" alt="Skill 组合模式插图：流水线、编排器与共享库" loading="lazy"><span class="spotlight-stamp">202<small>页，把经验落到纸上</small></span><span class="spotlight-open" aria-hidden="true">走进作品 ↗</span></button><div class="spotlight-caption"><span class="spotlight-no">01</span><div><span class="eyebrow">FROM PRACTICE TO PAGES</span><h3>让经验，成为可以翻阅的书。</h3></div><p>14 章 · 202 页 · 一份可阅读的完整 PDF<br>研究、组织、校正，直到作品成立。</p></div></article>
+            <article class="spotlight-panel spotlight-color"><button class="spotlight-visual" data-case="bauhaus" aria-label="阅读包豪斯视觉实验"><img src="/ai-cases/assets/bauhaus-visual.jpg" alt="包豪斯视觉实验的真实图像" loading="lazy"><span class="spotlight-stamp">形与色<small>一次视觉语法的实验</small></span><span class="spotlight-open" aria-hidden="true">走进作品 ↗</span></button><div class="spotlight-caption"><span class="spotlight-no">02</span><div><span class="eyebrow">FROM LANGUAGE TO FORM</span><h3>让抽象的风格，有具体的形状。</h3></div><p>从风格拆解，到独立图像素材<br>让描述进入构图、材质与配色。</p></div></article>
+            <article class="spotlight-panel spotlight-film"><button class="spotlight-visual" data-case="film" aria-label="阅读手工川 AI 实战成片制作过程"><img src="/ai-cases/assets/film-cover.png" alt="手工川 AI 实战第一期的真实视频封面" loading="lazy"><span class="spotlight-play" aria-hidden="true">▷</span><span class="spotlight-open" aria-hidden="true">走进作品 ↗</span></button><div class="spotlight-caption"><span class="spotlight-no">03</span><div><span class="eyebrow">FROM RECORDING TO STORY</span><h3>让一次录屏，成为值得看的片。</h3></div><p>05:58 · 横竖双版 · 章节与字幕<br>从原始轨道，到有节奏的完整表达。</p></div></article>
+          </div>
+        </div>
+        <div class="spotlight-bottom wrap"><span class="spotlight-instruction">滚动，展开作品</span><div class="spotlight-progress" aria-hidden="true"><span></span></div><a href="#works">全部 12 例 <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="works-section wrap" id="works" aria-labelledby="works-title">
+      <div class="section-heading"><div><p class="eyebrow">01 — SELECTED WORKS</p><h2 id="works-title">作品，是最好的解释。</h2></div><p>让成果先说话。<br>再走进它背后的制作过程。</p></div>
+      <div class="filter-bar"><div id="category-filters" class="filters" role="group" aria-label="按创作领域筛选"></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索案例或工具" aria-label="搜索案例或工具"><kbd>/</kbd></label></div>
+      <div class="results-line"><p id="result-count" role="status" aria-live="polite">12 个精选案例</p><span>点击作品，查看完整案例 <span aria-hidden="true">↗</span></span></div>
+      <div id="case-grid" class="case-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><p class="serif-em">还没有这个关键词的作品。</p><p>试试「人像」「字幕」或「ChatGPT」。</p><button class="button dark" data-action="reset">显示全部案例</button></div>
+    </section>
+
+    <section class="cinema" id="cinema" aria-labelledby="cinema-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">02 — THE SCREENING ROOM</p><h2 id="cinema-title">让作品，自己开口。</h2></div><p>把几分钟，留给一个完整作品。<br>也可以只听一段声音。</p></div>
+        <div class="cinema-toolbar"><span><i class="status-dot" aria-hidden="true"></i>《手工川 AI 实战》EP.01</span><div class="format-switch" role="group" aria-label="选择成片比例"><button aria-pressed="true" data-format="horizontal">横版 16:9</button><button aria-pressed="false" data-format="vertical">竖版 9:16</button></div></div>
+        <div class="cinema-grid">
+          <div class="screen-shell"><video id="main-film" controls playsinline preload="none" poster="/ai-cases/assets/film-cover.png" aria-label="手工川 AI 实战第一期，完整成片"><source src="/ai-cases/assets/film-horizontal.mp4" type="video/mp4"><track kind="subtitles" src="/ai-cases/assets/film.vtt" srclang="zh" label="中文外挂字幕"><p>浏览器不支持视频播放。<a href="/ai-cases/assets/film-horizontal.mp4">打开视频文件</a></p></video></div>
+          <aside class="film-info"><span class="eyebrow">NOW SHOWING / 05:58</span><h3>一段录屏的<br>另一种可能。</h3><p>独立轨道、语义清理、章节编排。看到的是一部片，背后是一整条可以复用的制作流程。</p><div id="chapters" class="chapters" aria-label="视频章节"></div><button class="text-link inverse" data-case="film">读这部片的制作过程 <span aria-hidden="true">↗</span></button><p class="caption-note">成片含烧录字幕。外挂字幕可在播放器中按需启用。</p></aside>
+        </div>
+        <div class="listening-room"><div class="audio-heading"><span class="eyebrow">LISTEN CLOSELY</span><h3>留住人的声音。</h3><p>EP.01 成片声音节选 · 00:14—00:33<br>本人讲述，含成片配乐。</p></div><div class="audio-body"><div id="waveform" class="waveform" aria-hidden="true"></div><audio id="voice" controls preload="metadata" aria-label="成片声音节选：把日常工作流沉淀为 Agent Skill"><source src="/ai-cases/assets/voice-excerpt.m4a" type="audio/mp4"><a href="/ai-cases/assets/voice-excerpt.m4a">打开声音文件</a></audio><details class="transcript"><summary>阅读声音文字稿</summary><p>应该说，至少我身边的所有人都已经会用 Skills，Agent Skill。但是当你真的想把日常生活中很多你平常的工作流，沉淀为一个 Agent Skill 的时候，你就会发现，它不是万能的，Agent Skill 有时候也会失效。为什么呢？今天我就给大家分享一个例子。</p></details></div></div>
+      </div>
+    </section>
+
+    <section class="timeline-section wrap" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading"><div><p class="eyebrow">03 — A PRACTICE IN PROGRESS</p><h2 id="timeline-title">三年，想法慢慢长出形状。</h2></div><p>从具体的一次协作，<br>到跨媒介的持续实践。</p></div>
+      <div id="year-tabs" class="year-tabs" role="tablist" aria-label="按年份查看实践"><button role="tab" aria-selected="true" id="year-2023" aria-controls="year-panel" data-year="2023">2023<span>从好奇开始</span></button><button role="tab" aria-selected="false" id="year-2024" aria-controls="year-panel" data-year="2024" tabindex="-1">2024<span>校正问题</span></button><button role="tab" aria-selected="false" id="year-2025" aria-controls="year-panel" data-year="2025" tabindex="-1">2025<span>为自己造物</span></button><button role="tab" aria-selected="false" id="year-2026" aria-controls="year-panel" data-year="2026" tabindex="-1">2026<span>形成工作流</span></button></div>
+      <div id="year-panel" class="year-panel" role="tabpanel" aria-labelledby="year-2023" tabindex="0"></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-grid"><div><p class="eyebrow">04 — CURATOR'S NOTE</p><h2 id="about-title">工具会更迭，<br><span class="serif-em">好奇心</span>会留下。</h2></div><div class="curator-copy"><p>这些案例开始于很具体的问题：想留住旅行的顺序，想把一个字讲清楚，想让一段录屏值得被看完。</p><p>AI 参与了代码、研究、写作与制作。人持续提出问题、选择方向、识别错误，也决定什么时候一件作品终于成立。</p><p>这里选择有原文、有产物或有运行记录的十二例。保留失败和限制，区分当年的体验与今天的能力。它们组成的，是一份仍在生长的个人实践档案。</p><div class="curator-signature"><span>手工川</span><small>创作者 · 开发者 · 持续的学习者</small></div><details class="source-note"><summary>关于选材与证据</summary><p>本集依据本地项目、书稿、案例记录和媒体文件策展。案例详情均附来源；数字保留原有测量口径。旧链接失效的历史案例用文字与明确标注的示意呈现。</p><p>选材包含 2023—2026 年的个人实践。这里展示经过筛选的作品与案例记录，不展示私人聊天原文，也不将定向检索视为三年聊天全量审计。</p><p>整理于 2026-09-05 · 线上展览版本 v0.2.0 · GSAP 动态版。</p></details><a class="text-link" href="/ai-cases/case-study.md" download>下载案例文字稿 <span aria-hidden="true">↓</span></a></div></div></section>
+  </main>
+  <footer class="site-footer wrap"><a href="/">手工川 AI 案例集 · 返回官网 ↗</a><span>2023 — 2026 · 十二次把想法做出来的尝试</span><a href="#">回到开头 ↑</a></footer>
+
+  <dialog id="case-dialog" aria-labelledby="case-title"><div class="dialog-bar"><span id="dialog-index" class="eyebrow"></span><div class="dialog-actions"><button data-action="prev" aria-label="上一个案例" title="上一个案例（←）">←</button><button data-action="next" aria-label="下一个案例" title="下一个案例（→）">→</button><button data-action="close" aria-label="关闭案例" title="关闭（Esc）">×</button></div></div><div id="case-content"></div></dialog>
+  <dialog id="image-dialog" aria-labelledby="image-caption"><div class="lightbox-bar"><p id="image-caption"></p><div><a id="original-image" target="_blank" rel="noopener" aria-label="在新标签页查看原图">原尺寸 ↗</a><button data-action="close-image" aria-label="关闭图片">×</button></div></div><div class="image-stage"><img id="lightbox-image" alt=""></div><p class="lightbox-hint">点击图片切换适应 / 原尺寸 · Esc 返回</p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="wrap">请启用 JavaScript 浏览案例。也可以直接阅读<a href="/ai-cases/case-study.md">完整案例文字稿</a>。</p></noscript>
+</body>
+</html>
