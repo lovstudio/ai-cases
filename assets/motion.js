@@ -222,7 +222,7 @@
   });
   reduced.addEventListener('change',syncPreference);
   document.addEventListener('focusin',event=>{
-    if(!enabled)return;
+    if(!enabled || !event.target.matches(':focus-visible'))return;
     // Never leave a focus target hidden behind an entrance animation.
     for(const tween of revealTweens){const target=tween.targets()[0];if(target?.contains(event.target)){tween.progress(1);tween.scrollTrigger?.kill();}}
   });
