@@ -1,0 +1,120 @@
+{
+  "edition": "2026-09-06 v0.1",
+  "assets": [
+    {
+      "file": "assets/article-cover.jpg",
+      "bytes": 320691,
+      "sha256": "5c077f45cce9629efe014e7a16375f06e48077262b24a10a1a7124953826505a",
+      "width": 1880,
+      "height": 800,
+      "format": "JPEG"
+    },
+    {
+      "file": "assets/camp-poster.png",
+      "bytes": 6921440,
+      "sha256": "2eb129520ec361facff3d9fe5f79c265e9cd9949b2a90c96df4e559c77be35d5",
+      "width": 1920,
+      "height": 5056,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/decision-matrix.png",
+      "bytes": 490633,
+      "sha256": "a4ddc9c27dfbf81f103991bada0fe22c06605cda4d2161d78592e9e8aa313520",
+      "width": 3200,
+      "height": 1800,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/ep01-cover.png",
+      "bytes": 2127473,
+      "sha256": "fba85f4b05352b9c9515d332cbb5c7b95a3a2f00bf3bd9a73a6d9eb3cb3afad7",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/ep01.mp4",
+      "bytes": 31050214,
+      "sha256": "a161cc2c34429ebf084634f9ae69ccc2d9cd0ba1e5db8d9589d2fc430af3808c",
+      "duration": 358.549333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ]
+    },
+    {
+      "file": "assets/harness-card.jpg",
+      "bytes": 223383,
+      "sha256": "47782ccfaf7ffee083605154b571b5362638f784bdf2471686ad8742d9b109e0",
+      "width": 1200,
+      "height": 1800,
+      "format": "JPEG"
+    },
+    {
+      "file": "assets/positioning-map.png",
+      "bytes": 306049,
+      "sha256": "e60447d4b702789973dcf2f9d36305b790468e17ee8dffe6516593580b95edaf",
+      "width": 3200,
+      "height": 1800,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/qr-bare.png",
+      "bytes": 15714,
+      "sha256": "30640590fe109d7afe9e9788a66a68241b2c25cb9754ed8600e1de16e8e8b852",
+      "width": 768,
+      "height": 768,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/qr-poster.png",
+      "bytes": 23042,
+      "sha256": "96e35edf8de335a4ddc846fc0b5423cb9cf831c713e8105f79f5127a98d96ae0",
+      "width": 896,
+      "height": 1072,
+      "format": "PNG"
+    },
+    {
+      "file": "assets/voice-clone.wav",
+      "bytes": 1387536,
+      "sha256": "05dd46e9fe7f000aedcdf8019564e865c6d09795080463a910733359a6bffa09",
+      "duration": 28.9,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ]
+    },
+    {
+      "file": "assets/voice-original.mp3",
+      "bytes": 354871,
+      "sha256": "e218de44725de80dc298f5a88204e387ca4cc19dd5dafaa1c7e7b04b4075fb80",
+      "duration": 28.905333,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ]
+    }
+  ]
+}

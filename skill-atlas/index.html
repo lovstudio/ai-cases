@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111713">
+  <meta name="description" content="手工川的 Skill 能力地图、过去一年的实践线索，以及可以观看、聆听和探索的真实案例。">
+  <title>手工川 Skill 能力地图与案例集</title>
+  <link rel="canonical" href="https://lovstudio.ai/skill-atlas">
+  <meta property="og:title" content="手工川 Skill 能力地图与案例集">
+  <meta property="og:description" content="244 项能力入口、12 条年度探索线索、6 个真实多媒体案例。交互地图与课堂演示。">
+  <meta property="og:url" content="https://lovstudio.ai/skill-atlas">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://lovstudio.ai/skill-atlas/assets/ep01-cover.png">
+  <link rel="stylesheet" href="/skill-atlas/styles.css">
+  <script defer src="/skill-atlas/vendor/gsap.min.js"></script><script defer src="/skill-atlas/vendor/ScrollTrigger.min.js"></script><script defer src="/skill-atlas/vendor/ScrollToPlugin.min.js"></script>
+  <script defer src="/skill-atlas/data.js"></script><script defer src="/skill-atlas/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#map">跳到能力地图</a>
+  <header class="site-header">
+    <a class="wordmark" href="#intro" aria-label="手工川，回到开场"><span class="brand-symbol" aria-hidden="true">川</span><span>手工川<span class="wordmark-sub">SKILL ATLAS · 2026</span></span></a>
+    <nav aria-label="主要导航"><a href="#map">能力地图</a><a href="#journey">一年轨迹</a><a href="#cases">案例集</a><a href="#index">完整索引</a></nav>
+    <button id="present-toggle" class="button compact outline" aria-pressed="false">进入演示 <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main>
+    <section id="intro" class="hero chapter" data-chapter="开场">
+      <div class="hero-top mono"><span><i class="live-dot"></i> A FIELD GUIDE TO ONE PERSON’S CAPABILITIES</span><span>2025.09 — 2026.09</span></div>
+      <div class="hero-copy"><p class="eyebrow">从一项工作，到一套工作方式</p><h1><span>手工川 Skill</span><strong>能力地图</strong><strong class="outline-title">与案例集<span class="title-dot">.</span></strong></h1><p class="hero-description">把产品做出来，把经验讲清楚。<br>沿着一年的实践，观察能力怎样生长、连接与复用。</p><div class="hero-actions"><a class="button primary" href="#map">展开能力地图 <span aria-hidden="true">↘</span></a><a class="button text-button" href="#cases">直接看作品 <span aria-hidden="true">→</span></a></div></div>
+      <div class="hero-art" aria-hidden="true"><svg id="hero-atlas" viewBox="0 0 700 700"></svg><div class="hero-art-center"><strong>244</strong><span>CAPABILITY ENTRIES</span><i>做事的方法，有了形状。</i></div><span class="orbit-note note-a">BUILD / 83</span><span class="orbit-note note-b">EXPRESS / 83</span><span class="orbit-note note-c">SUPPORT / 50</span><span class="orbit-note note-d">DELIVER / 28</span></div>
+      <div class="hero-bottom"><span class="mono">01 / OPEN THE ATLAS</span><p>能力结构 × 聊天线索 × 多媒体制品</p><a href="#map" aria-label="向下浏览能力地图">↓</a></div>
+    </section>
+
+    <section id="map" class="map-section chapter dark-section" data-chapter="能力地图">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE SHAPE OF WORK</p><h2>能力分布，<br><em>也是工作方式的轮廓。</em></h2></div><p class="section-intro">研发与表达形成两个重心。检索、记忆和方法改进，让两边的工作持续运转。切换观察角度，看看同一批能力如何重新排列。</p></div>
+      <div class="group-ribbon" id="group-ribbon"></div>
+      <div class="map-toolbar"><div class="segmented" role="group" aria-label="地图排列方式"><button data-layout="domain" aria-pressed="true">按能力领域</button><button data-layout="layer" aria-pressed="false">按工作层级</button></div><p class="map-caption"><span class="square-key"></span>一个方块，一项能力入口</p><button class="plain-button" id="map-reset">重置选择 ↺</button></div>
+      <div class="atlas-stage"><svg id="capability-map" viewBox="0 0 1120 430" role="img" aria-label="244 个 Skill 入口的领域与职责分布，完整文字信息可在下方索引中查询。"></svg><div id="map-tip" class="map-tip" hidden></div></div>
+      <div id="map-legends" class="map-legends" role="group" aria-label="按领域筛选地图"></div>
+      <div class="map-reading"><div><span class="micro-label">当前观察</span><h3 id="map-reading-title">两个核心，一组工作底座。</h3></div><p id="map-reading-text">研发与交付、内容与表达各占 34%。这是一张能力入口地图：它呈现沉淀方向，不是个人能力评分，也不代表每项都已完成业务验收。</p><button class="plain-button" id="map-to-index">在索引里展开 →</button></div>
+      <p class="source-note">基于 2026.09.06 的 244 项盘点快照，包含子模块、定制、兼容与实验入口。去除 50 个内嵌条目后，研发为 68 项、表达为 59 项：双重心仍在，两侧并非完全对称。分类按主要结果和职责整理，允许边界交叉。</p>
+    </section>
+
+    <section id="journey" class="journey-section chapter paper-section" data-chapter="一年轨迹">
+      <div class="section-heading"><div><p class="eyebrow">02 / TRACE THE PRACTICE</p><h2>先有真实的问题，<br><em>再有方法的沉淀。</em></h2></div><p class="section-intro">回到过去一年的交流记录，观察需求怎样变化。下列时间点是可回查的实践线索；它们不等于对应 Skill 的创建日期。</p></div>
+      <div class="research-bar"><div><span class="micro-label">检索窗口</span><strong>2025.09 — 2026.09</strong></div><div><span class="micro-label">本机可见消息</span><strong id="research-total">—</strong></div><div><span class="micro-label">本人 Skill / 插件相关消息</span><strong id="research-own">—</strong></div><button class="plain-button" id="research-method">查看读取范围与口径 ↗</button></div>
+      <div class="activity-layout"><div class="activity-heading"><h3>讨论留下的轨迹</h3><p>每月本人消息中出现<br>Skill / 技能 / 插件等词的次数。</p><p class="micro-copy">按消息计数，重复转发不去重。<br>末月为截至 9 月 6 日的部分月份。<br>4 月高点包含成批授权与安装说明，<br>不能读作能力数量突然增长。</p></div><div class="activity-chart" id="activity-chart" role="group" aria-label="每月相关消息数量"></div></div>
+      <div class="timeline" id="timeline"></div>
+      <div class="insight-insert"><span class="mono">A USEFUL CORRECTION</span><h3>地图上的空白，<br>不等于实践中的空白。</h3><p>2025 年 10 月的交流已经涉及产品出海、运营与增长。商业类 Skill 的数量较少，不能直接推断这些工作不重要。地图记录的是哪些方法被工具化；聊天补上了尚未进入地图的工作。</p></div>
+    </section>
+
+    <section id="cases" class="cases-section chapter paper-section" data-chapter="案例集">
+      <div class="section-heading"><div><p class="eyebrow">03 / THE WORK, IN ITS OWN FORM</p><h2>看见结果。<br><em>也听见过程。</em></h2></div><p class="section-intro">播放成片、对比原声与合成语音、放大信息图。每个案例同时保留任务、方法和证据，沿着作品理解能力如何组合。</p></div>
+      <div class="case-toolbar"><div class="segmented light" role="group" aria-label="案例媒体筛选"><button data-case-filter="all" aria-pressed="true">全部作品</button><button data-case-filter="video" aria-pressed="false">视频</button><button data-case-filter="audio" aria-pressed="false">音频</button><button data-case-filter="image" aria-pressed="false">图像</button></div><span id="case-count" class="mono"></span></div>
+      <div id="case-grid" class="case-grid"></div>
+    </section>
+
+    <section id="connections" class="connection-section chapter dark-section" data-chapter="能力连接">
+      <div class="section-heading"><div><p class="eyebrow">04 / BETWEEN THE DOTS</p><h2>一个成果，<br><em>可以进入下一项工作。</em></h2></div><p class="section-intro">真正值得继续研究的是交接：前一项工作留下什么，下一项工作还需要补充什么。选择一条典型路径，查看它连接的能力与结果。</p></div>
+      <div class="segmented" id="chain-tabs" role="group" aria-label="典型工作路径"></div><div id="chain-stage" class="chain-stage"></div><div id="chain-note" class="chain-note"></div>
+      <p class="source-note">工作路径依据能力用途和案例整理，用于解释组合关系；不代表已实现的一键执行链或真实运行依赖图。</p>
+    </section>
+
+    <section id="index" class="index-section chapter paper-section" data-chapter="完整索引">
+      <div class="section-heading"><div><p class="eyebrow">05 / AN INDEX, NOT A SCOREBOARD</p><h2>每一项能力，<br><em>都有它的位置。</em></h2></div><p class="section-intro">搜索具体工作，按领域和职责缩小范围。点击条目查看用途与相关案例；模块、兼容入口和实验保持可辨认。</p></div>
+      <div class="index-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><input id="skill-search" type="search" placeholder="搜索名称、用途或关键词…" aria-label="搜索 Skill 名称、用途或关键词"><kbd>/</kbd></label><select id="category-filter" aria-label="按能力领域筛选"><option value="">所有领域</option></select><select id="level-filter" aria-label="按职责层级筛选"><option value="">所有层级</option></select><span id="index-count" class="mono" aria-live="polite"></span></div>
+      <div id="skill-list" class="skill-list"></div><div id="index-empty" class="empty-state" hidden><h3>没有找到匹配的能力</h3><p>尝试换一个任务词，或者放宽筛选条件。</p><button id="clear-filters" class="button ink">清除筛选</button></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div><span class="brand-symbol" aria-hidden="true">川</span><p>手工川 Skill<br>能力地图与案例集</p></div><p>把一次工作的经验，<br>留给下一次创造。</p><div><a href="/skills" class="plain-button">返回官网 Skills ↗</a><a href="/skill-atlas/assets/skill-atlas-offline.zip" class="plain-button">下载完整离线包 ↓</a><button id="method-open" class="plain-button">证据与口径 ↗</button><span class="mono">WEB EDITION · SEPTEMBER 2026</span></div></footer>
+
+  <div id="presentation-controls" class="presentation-controls" hidden><button id="present-prev" aria-label="上一个章节">←</button><span id="present-position" aria-live="polite"></span><button id="present-next" aria-label="下一个章节">→</button><button id="present-exit">退出演示</button></div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span id="dialog-kicker" class="mono"></span><button class="icon-button" id="dialog-close" aria-label="关闭详情" title="关闭详情">×</button></div><div id="dialog-content"></div></dialog>
+  <div class="announcer" id="announcer" aria-live="polite"></div>
+  <noscript><div class="no-script">本作品需要 JavaScript 来展示交互地图、索引与案例播放器。请启用 JavaScript 后重新打开。</div></noscript>
+</body></html>
