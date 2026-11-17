@@ -1,0 +1,85 @@
+[
+  {
+    "id": "stardust",
+    "title": "星尘简史",
+    "titleEn": "A Brief History of Stardust",
+    "author": "狂热AI",
+    "kind": "Vibe Coding",
+    "publishedAt": "2026-11-15",
+    "summary": "一句话造出 138 亿年的宇宙。从一个光点出发，经过暴胀、夸克汤、第一缕光、黑洞与星系，16 万颗星尘一镜到底，再凝聚成地球、恐龙、青铜鼎、宇航员和星际飞船。",
+    "summaryEn": "A 13.8-billion-year universe, one sentence at a time. From a single point of light, 160,000 particles of stardust travel through inflation, the quark soup, first light, black holes and galaxies in one continuous shot, then gather into Earth, a T. rex, a bronze ding, an astronaut and a starship.",
+    "cover": "stardust/cover.jpg",
+    "tags": ["Three.js", "Aholo Lux3D", "文生 3D", "WebGL", "单文件 HTML"],
+    "demo": {
+      "file": "stardust/index.html",
+      "bytes": 26326075,
+      "sha256": "075d29fd8941c35d8674411aa167baec57f669b0e28d6266501058feba19681d"
+    },
+    "facts": [
+      { "label": "时长", "labelEn": "Runtime", "value": "约 3 分钟，25 个镜头", "valueEn": "About 3 minutes, 25 shots" },
+      { "label": "星尘粒子", "labelEn": "Particles", "value": "16 万（触屏设备 7 万）", "valueEn": "160,000 (70,000 on touch screens)" },
+      { "label": "文生 3D 造物", "labelEn": "Text-to-3D objects", "value": "14 件", "valueEn": "14" },
+      { "label": "交付形式", "labelEn": "Format", "value": "单个 HTML 文件，可离线打开", "valueEn": "One HTML file that runs offline" }
+    ],
+    "sections": [
+      {
+        "title": "看什么",
+        "titleEn": "What you see",
+        "body": [
+          "影片按「起源、结构、太阳系、生命、文明、未来」六幕推进，从奇点和暴胀一路走到詹姆斯·韦伯望远镜和星际飞船。",
+          "右上角实时显示宇宙年龄与背景温度，右侧的时间尺可以点击跳到任意年代。空格暂停，拖动转视角，滚轮调远近。"
+        ],
+        "bodyEn": [
+          "The film moves through six acts: origins, structure, the solar system, life, civilization and the future, from the singularity and inflation to the James Webb Space Telescope and a starship.",
+          "The top-right corner shows the age and background temperature of the universe as it plays, and the timeline on the right jumps to any era. Space pauses, dragging turns the view and the scroll wheel zooms."
+        ]
+      },
+      {
+        "title": "怎么做的",
+        "titleEn": "How it was made",
+        "body": [
+          "片中 14 件造物各由 Aholo Lux3D 的 G1-Turbo 模型从一句中文描述生成 3D 模型，星尘再从模型表面取样，凝聚成它的形状。画面用 Three.js（r187）渲染，声音由 Web Audio 合成的提示音和一段背景配乐组成。",
+          "这里展示的是作者分享的单文件版：14 个模型、模型清单和配乐都以 base64 内嵌在一个 HTML 里，页面自己拦截请求、充当服务器，下载后双击就能离线打开。原版的「造物」面板可以写一句话实时生成新模型，需要作者的本地服务和 Aholo API key；单文件版里只能重看片中的 14 件造物。"
+        ],
+        "bodyEn": [
+          "Each of the 14 objects in the film was generated as a 3D model by Aholo Lux3D's G1-Turbo from a single Chinese sentence; the stardust then samples the model's surface and gathers into its shape. Rendering uses Three.js (r187), and the sound is Web Audio chimes over a music track.",
+          "This is the single-file edition the author shared: the 14 models, their manifest and the music are embedded as base64 in one HTML file, which intercepts its own requests and acts as its own server, so it opens offline. In the original, the Forge panel generates a new model from a sentence in real time through the author's local server and an Aholo API key; the single-file edition can only replay the 14 objects from the film."
+        ]
+      },
+      {
+        "title": "关于这份收录",
+        "titleEn": "About this entry",
+        "body": [
+          "作品与署名归作者狂热AI所有，片中右下角保留作者署名。本站托管的是作者在社群中分享的单文件版，内容未做改动，在与 lovstudio.ai 隔离的沙箱里运行，不连接任何网络。"
+        ],
+        "bodyEn": [
+          "The work and its credit belong to its author, 狂热AI, whose signature stays in the lower-right corner of the film. This site hosts the unmodified single-file edition the author shared with the community. It runs in a sandbox isolated from lovstudio.ai and makes no network requests."
+        ]
+      }
+    ],
+    "gallery": [
+      { "src": "stardust/shots/firstlight.jpg", "caption": "第一缕光 · 38 万年", "captionEn": "First Light · 380,000 years" },
+      { "src": "stardust/shots/galaxy.jpg", "caption": "星系 · 10 亿年", "captionEn": "Galaxies · 1 billion years" },
+      { "src": "stardust/shots/blackhole.jpg", "caption": "黑洞 · 30 亿年", "captionEn": "Quasars · 3 billion years" },
+      { "src": "stardust/shots/earth.jpg", "caption": "蓝色行星", "captionEn": "The Blue Planet" },
+      { "src": "stardust/shots/trex.jpg", "caption": "巨兽", "captionEn": "The Age of Giants" },
+      { "src": "stardust/shots/jwst.jpg", "caption": "回望 · 詹姆斯·韦伯空间望远镜", "captionEn": "Looking Back · James Webb Space Telescope" }
+    ],
+    "prompts": [
+      { "title": "尘埃成岩", "act": "太阳系", "prompt": "一颗不规则形状的岩石小行星，表面布满大小不一的陨石坑、裂缝与棱角，灰褐色粗糙岩石质感，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "熔岩地球", "act": "太阳系", "prompt": "一颗熔岩行星，完整球体，黑色火山岩地壳被发光的橙红色岩浆裂缝网络割裂，局部有岩浆海，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "蓝色行星", "act": "太阳系", "prompt": "地球，完整球体行星模型，深蓝色海洋，绿色与棕色的大陆，白色旋涡云层，极地冰盖，写实，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "寒武纪", "act": "生命", "prompt": "一只三叶虫，寒武纪远古节肢动物，椭圆形分节甲壳，清晰的头盾、胸节与尾盾，深褐色带光泽的外骨骼，俯视略侧，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "螺旋", "act": "生命", "prompt": "一枚菊石，螺旋盘卷的远古贝壳，壳面有清晰放射肋纹，珍珠母光泽的米棕色，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "巨兽", "act": "生命", "prompt": "一只霸王龙，全身站立行走姿态，粗壮后肢与长尾，张口露出牙齿，带鳞片纹理的橄榄绿与褐色皮肤，写实恐龙，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "铸造", "act": "文明", "prompt": "一尊商周青铜方鼎，四足双耳，器身饕餮纹浮雕，青绿色铜锈与暗金色铜质，博物馆文物，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "凝视", "act": "文明", "prompt": "一架古董黄铜天文折射望远镜，长镜筒斜指向上，架在结实的木质三脚架上，抛光黄铜与深色木材，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "蒸汽", "act": "文明", "prompt": "一台十九世纪蒸汽机车火车头，黑色锅炉与烟囱，红色大车轮与连杆，黄铜装饰，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "离开摇篮", "act": "文明", "prompt": "一枚重型运载火箭，竖直姿态，白色箭体带黑色标识条纹，底部四个助推器与发动机喷口，顶部整流罩，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "一小步", "act": "文明", "prompt": "一名宇航员，身穿白色舱外宇航服，金色反光面罩头盔，背着生命维持背包，站立姿态全身，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "回望", "act": "文明", "prompt": "詹姆斯·韦伯空间望远镜，由金色六边形镜片拼成的大型主镜，下方是银紫色多层菱形遮阳板，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "会思考的尘埃", "act": "未来", "prompt": "一个人形机器人，白色流线型外壳与黑色关节，头部是光滑的黑色面罩，站立姿态全身，未来工业设计，单个完整物体，居中，纯色背景，无文字，无底座" },
+      { "title": "远方", "act": "未来", "prompt": "一艘巨型星际飞船，修长的流线型银白色舰体，中段环绕着旋转的环形居住舱，尾部多台蓝色发光引擎，硬表面科幻设计，单个完整物体，居中，纯色背景，无文字，无底座" }
+    ]
+  }
+]
