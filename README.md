@@ -13,6 +13,7 @@
 - `assets/`：经选取的作品展示素材；`provenance.json` 保留来源记录与校验。
 - `assets/motion.*`：动效渐进增强；支持系统减少动态效果与本机开关。
 - `assets/vendor/`：原版 GSAP、ScrollTrigger、Flip；授权与校验详见 `manifest.json`。
+- `showcase/`：AI 案例合集（社群作品），官网 [/showcase](https://lovstudio.ai/showcase) 从 `main` 分支动态读取，与上面的展览互不影响；规则见 [showcase/README.md](showcase/README.md)。
 
 案例保留各自时间与验证范围，历史体验不代表当前模型评测；不含私人聊天原文。网页展示素材不代表授予原素材的再分发许可。GSAP 遵循其 [Standard License](https://gsap.com/standard-license)。
 
